@@ -21,7 +21,10 @@ flutter:
 dependencies:
   flutter:
     sdk: flutter
-  google_maps_flutter_android: ^2.5.0
+  google_maps_flutter_android:
+    git:
+      url: git@github.com:NguyenXuanLoc/google_maps_flutter_android_2.6.0.git
+      ref: main
   google_maps_flutter_ios: ^2.3.0
   google_maps_flutter_platform_interface: ^2.4.0
   google_maps_flutter_web: ^0.5.2
